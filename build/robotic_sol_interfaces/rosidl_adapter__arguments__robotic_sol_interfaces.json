@@ -1,0 +1,7 @@
+{
+  "package_name": "robotic_sol_interfaces",
+  "non_idl_tuples": [
+    "/home/ros22/machina/src/robotic_sol_interfaces:msg/SensorData.msg",
+    "/home/ros22/machina/src/robotic_sol_interfaces:srv/GetSensorData.srv"
+  ]
+}

@@ -1,0 +1,17 @@
+[0.174s] Invoking command in '/home/ros22/machina/build/robotic_sol_interfaces': CMAKE_PREFIX_PATH=/home/ros22/machina/install/robotic_sol:/home/ros22/machina/install/roboticSol:/opt/ros/humble /usr/bin/cmake /home/ros22/machina/src/robotic_sol_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros22/machina/install/robotic_sol_interfaces
+[0.180s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.264s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.268s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.271s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.432s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[0.432s]   rosidl_generate_interfaces() the passed dependency 'geometry_msgs' has not
+[0.432s]   been found before using find_package()
+[0.432s] Call Stack (most recent call first):
+[0.433s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.433s] 
+[0.433s] [0m
+[0.433s] -- Configuring incomplete, errors occurred!
+[0.433s] See also "/home/ros22/machina/build/robotic_sol_interfaces/CMakeFiles/CMakeOutput.log".
+[0.438s] Invoked command in '/home/ros22/machina/build/robotic_sol_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/ros22/machina/install/robotic_sol:/home/ros22/machina/install/roboticSol:/opt/ros/humble /usr/bin/cmake /home/ros22/machina/src/robotic_sol_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros22/machina/install/robotic_sol_interfaces

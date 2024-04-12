@@ -1,0 +1,231 @@
+[0.182s] Invoking command in '/home/ros22/machina/src/build/robotic_sol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros22/machina/install/robotic_sol:/opt/ros/humble /usr/bin/cmake /home/ros22/machina/src/robotic_sol_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros22/machina/src/install/robotic_sol_interfaces
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.413s] -- The CXX compiler identification is GNU 11.4.0
+[0.535s] -- Detecting C compiler ABI info
+[0.601s] -- Detecting C compiler ABI info - done
+[0.606s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.606s] -- Detecting C compile features
+[0.607s] -- Detecting C compile features - done
+[0.609s] -- Detecting CXX compiler ABI info
+[0.681s] -- Detecting CXX compiler ABI info - done
+[0.686s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.686s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.688s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.786s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.829s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.844s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.849s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.127s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.478s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.620s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.620s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.620s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.620s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.634s] -- Found PythonExtra: .so  
+[1.668s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.679s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.680s] -- Added test 'lint_cmake' to check CMake code style
+[1.680s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.682s] -- Added test 'xmllint' to check XML markup files
+[1.684s] -- Configuring done
+[1.706s] -- Generating done
+[1.707s] -- Build files have been written to: /home/ros22/machina/src/build/robotic_sol_interfaces
+[1.713s] Invoked command in '/home/ros22/machina/src/build/robotic_sol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros22/machina/install/robotic_sol:/opt/ros/humble /usr/bin/cmake /home/ros22/machina/src/robotic_sol_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros22/machina/src/install/robotic_sol_interfaces
+[1.714s] Invoking command in '/home/ros22/machina/src/build/robotic_sol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros22/machina/install/robotic_sol:/opt/ros/humble /usr/bin/cmake --build /home/ros22/machina/src/build/robotic_sol_interfaces -- -j16 -l16
+[1.736s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.741s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.745s] [  5%] Built target ament_cmake_python_symlink_robotic_sol_interfaces
+[1.922s] running egg_info
+[1.922s] creating robotic_sol_interfaces.egg-info
+[1.922s] writing robotic_sol_interfaces.egg-info/PKG-INFO
+[1.922s] writing dependency_links to robotic_sol_interfaces.egg-info/dependency_links.txt
+[1.922s] writing top-level names to robotic_sol_interfaces.egg-info/top_level.txt
+[1.923s] writing manifest file 'robotic_sol_interfaces.egg-info/SOURCES.txt'
+[1.924s] reading manifest file 'robotic_sol_interfaces.egg-info/SOURCES.txt'
+[1.924s] writing manifest file 'robotic_sol_interfaces.egg-info/SOURCES.txt'
+[1.944s] [  5%] Built target ament_cmake_python_build_robotic_sol_interfaces_egg
+[1.965s] [  5%] Built target robotic_sol_interfaces__cpp
+[1.970s] [ 15%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotic_sol_interfaces/msg/detail/sensor_data__functions.c.o[0m
+[1.971s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.971s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.971s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.971s] [ 15%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotic_sol_interfaces/srv/detail/get_sensor_data__functions.c.o[0m
+[2.009s] [ 20%] [32m[1mLinking C shared library librobotic_sol_interfaces__rosidl_generator_c.so[0m
+[2.056s] [ 20%] Built target robotic_sol_interfaces__rosidl_generator_c
+[2.063s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.063s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.063s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.202s] [ 33%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotic_sol_interfaces/msg/detail/sensor_data__type_support.cpp.o[0m
+[2.202s] [ 33%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotic_sol_interfaces/srv/detail/get_sensor_data__type_support.cpp.o[0m
+[2.231s] [ 38%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotic_sol_interfaces/srv/get_sensor_data__type_support.cpp.o[0m
+[2.231s] [ 38%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotic_sol_interfaces/msg/sensor_data__type_support.cpp.o[0m
+[2.269s] [ 41%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotic_sol_interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o[0m
+[2.271s] [ 43%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotic_sol_interfaces/srv/detail/dds_fastrtps/get_sensor_data__type_support.cpp.o[0m
+[2.337s] [ 51%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotic_sol_interfaces/msg/detail/sensor_data__type_support.c.o[0m
+[2.337s] [ 51%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotic_sol_interfaces/msg/sensor_data__type_support.cpp.o[0m
+[2.337s] [ 53%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotic_sol_interfaces/srv/get_sensor_data__type_support.cpp.o[0m
+[2.337s] [ 53%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotic_sol_interfaces/srv/detail/get_sensor_data__type_support.c.o[0m
+[2.368s] [ 56%] [32m[1mLinking CXX shared library librobotic_sol_interfaces__rosidl_typesupport_c.so[0m
+[2.379s] [ 58%] [32m[1mLinking C shared library librobotic_sol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.389s] [ 64%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/srv/detail/get_sensor_data__type_support_c.cpp.o[0m
+[2.389s] [ 64%] [32mBuilding CXX object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/msg/detail/sensor_data__type_support_c.cpp.o[0m
+[2.454s] [ 64%] Built target robotic_sol_interfaces__rosidl_typesupport_c
+[2.454s] [ 64%] Built target robotic_sol_interfaces__rosidl_typesupport_introspection_c
+[2.507s] [ 66%] [32m[1mLinking CXX shared library librobotic_sol_interfaces__rosidl_typesupport_cpp.so[0m
+[2.571s] [ 66%] Built target robotic_sol_interfaces__rosidl_typesupport_cpp
+[2.649s] [ 69%] [32m[1mLinking CXX shared library librobotic_sol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.738s] [ 69%] Built target robotic_sol_interfaces__rosidl_typesupport_introspection_cpp
+[2.739s] [ 74%] [32m[1mLinking CXX shared library librobotic_sol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.739s] [ 74%] [32m[1mLinking CXX shared library librobotic_sol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.820s] [ 74%] Built target robotic_sol_interfaces__rosidl_typesupport_fastrtps_c
+[2.820s] [ 74%] Built target robotic_sol_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.831s] [ 74%] Built target robotic_sol_interfaces
+[2.841s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.137s] [ 76%] Built target robotic_sol_interfaces__py
+[3.148s] [ 82%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotic_sol_interfaces/msg/_sensor_data_s.c.o[0m
+[3.148s] [ 82%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotic_sol_interfaces/srv/_get_sensor_data_s.c.o[0m
+[3.212s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robotic_sol_interfaces/librobotic_sol_interfaces__rosidl_generator_py.so[0m
+[3.259s] [ 84%] Built target robotic_sol_interfaces__rosidl_generator_py
+[3.270s] [ 92%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robotic_sol_interfaces/_robotic_sol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.270s] [ 92%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robotic_sol_interfaces/_robotic_sol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.270s] [ 92%] [32mBuilding C object CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robotic_sol_interfaces/_robotic_sol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.364s] [100%] Built target robotic_sol_interfaces__rosidl_typesupport_c__pyext
+[3.364s] [100%] Built target robotic_sol_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.364s] [100%] Built target robotic_sol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.370s] Invoked command in '/home/ros22/machina/src/build/robotic_sol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros22/machina/install/robotic_sol:/opt/ros/humble /usr/bin/cmake --build /home/ros22/machina/src/build/robotic_sol_interfaces -- -j16 -l16
+[3.413s] Invoking command in '/home/ros22/machina/src/build/robotic_sol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros22/machina/install/robotic_sol:/opt/ros/humble /usr/bin/cmake --install /home/ros22/machina/src/build/robotic_sol_interfaces
+[3.416s] -- Install configuration: ""
+[3.417s] -- Execute custom install script
+[3.417s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/ament_index/resource_index/rosidl_interfaces/robotic_sol_interfaces
+[3.422s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__functions.h
+[3.426s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__struct.h
+[3.430s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__type_support.h
+[3.435s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.439s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/sensor_data.h
+[3.443s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__functions.h
+[3.447s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__struct.h
+[3.451s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__type_support.h
+[3.455s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/get_sensor_data.h
+[3.459s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/library_path.sh
+[3.463s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/library_path.dsv
+[3.467s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+[3.471s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.475s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__rosidl_typesupport_fastrtps_c.h
+[3.478s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h
+[3.482s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.487s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__rosidl_typesupport_introspection_c.h
+[3.491s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__builder.hpp
+[3.495s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__struct.hpp
+[3.500s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__traits.hpp
+[3.503s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/sensor_data.hpp
+[3.507s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__builder.hpp
+[3.511s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__struct.hpp
+[3.515s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__traits.hpp
+[3.519s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/get_sensor_data.hpp
+[3.523s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.527s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.531s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.535s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[3.539s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/include/robotic_sol_interfaces/robotic_sol_interfaces/srv/detail/get_sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[3.543s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/pythonpath.sh
+[3.547s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/pythonpath.dsv
+[3.552s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.556s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.561s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.565s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.570s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/__init__.py
+[3.574s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/_robotic_sol_interfaces_s.ep.rosidl_typesupport_c.c
+[3.578s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/_robotic_sol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.582s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/_robotic_sol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.586s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/librobotic_sol_interfaces__rosidl_generator_py.so
+[3.591s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/msg/__init__.py
+[3.595s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/msg/_sensor_data.py
+[3.599s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/msg/_sensor_data_s.c
+[3.604s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.608s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.612s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.616s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/srv/__init__.py
+[3.619s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/srv/_get_sensor_data.py
+[3.624s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/srv/_get_sensor_data_s.c
+[3.627s] -- Up-to-date symlink: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.627s] -- Up-to-date symlink: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.628s] -- Up-to-date symlink: /home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/robotic_sol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.628s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/msg/SensorData.idl
+[3.632s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/srv/GetSensorData.idl
+[3.636s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/msg/SensorData.msg
+[3.640s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/srv/GetSensorData.srv
+[3.644s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/srv/GetSensorData_Request.msg
+[3.649s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/srv/GetSensorData_Response.msg
+[3.653s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/ament_index/resource_index/package_run_dependencies/robotic_sol_interfaces
+[3.658s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/ament_index/resource_index/parent_prefix_path/robotic_sol_interfaces
+[3.663s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/ament_prefix_path.sh
+[3.667s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/ament_prefix_path.dsv
+[3.671s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/path.sh
+[3.675s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/environment/path.dsv
+[3.679s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/local_setup.bash
+[3.683s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/local_setup.sh
+[3.687s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/local_setup.zsh
+[3.691s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/local_setup.dsv
+[3.695s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/package.dsv
+[3.698s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/ament_index/resource_index/packages/robotic_sol_interfaces
+[3.703s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.707s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.711s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.715s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.720s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.725s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.729s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.733s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfacesConfig.cmake
+[3.737s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfacesConfig-version.cmake
+[3.742s] -- Symlinking: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/package.xml
+[3.747s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_generator_c.so
+[3.748s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_generator_c.so" to ""
+[3.748s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.748s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.748s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_introspection_c.so
+[3.748s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.748s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_c.so
+[3.748s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_c.so" to ""
+[3.749s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.749s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.749s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.749s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.749s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_cpp.so
+[3.749s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.774s] Listing '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces'...
+[3.774s] Compiling '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/__init__.py'...
+[3.774s] Listing '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/msg'...
+[3.774s] Compiling '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/msg/__init__.py'...
+[3.774s] Compiling '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/msg/_sensor_data.py'...
+[3.774s] Listing '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/srv'...
+[3.774s] Compiling '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/srv/__init__.py'...
+[3.774s] Compiling '/home/ros22/machina/src/install/robotic_sol_interfaces/local/lib/python3.10/dist-packages/robotic_sol_interfaces/srv/_get_sensor_data.py'...
+[3.777s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_generator_py.so
+[3.777s] -- Set runtime path of "/home/ros22/machina/src/install/robotic_sol_interfaces/lib/librobotic_sol_interfaces__rosidl_generator_py.so" to ""
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_generator_cExport.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_cExport.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.778s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_generator_cppExport.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_cppExport.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/robotic_sol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_generator_pyExport.cmake
+[3.779s] -- Installing: /home/ros22/machina/src/install/robotic_sol_interfaces/share/robotic_sol_interfaces/cmake/export_robotic_sol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.781s] Invoked command in '/home/ros22/machina/src/build/robotic_sol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros22/machina/install/robotic_sol:/opt/ros/humble /usr/bin/cmake --install /home/ros22/machina/src/build/robotic_sol_interfaces

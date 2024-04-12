@@ -1,0 +1,1 @@
+/home/ros22/machina/build/robotic_sol_interfaces/rosidl_cmake/srv/GetSensorData_Response.msg

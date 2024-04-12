@@ -1,0 +1,17 @@
+[0.460s] Invoking command in '/home/ros22/machina/build/robotic_sol': PYTHONPATH=/home/ros22/machina/build/robotic_sol/prefix_override:/home/ros22/machina/install/robotic_sol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros22/machina/build/robotic_sol/build --no-deps symlink_data
+[0.650s] running develop
+[0.763s] running egg_info
+[0.763s] writing robotic_sol.egg-info/PKG-INFO
+[0.763s] writing dependency_links to robotic_sol.egg-info/dependency_links.txt
+[0.764s] writing entry points to robotic_sol.egg-info/entry_points.txt
+[0.764s] writing requirements to robotic_sol.egg-info/requires.txt
+[0.764s] writing top-level names to robotic_sol.egg-info/top_level.txt
+[0.765s] reading manifest file 'robotic_sol.egg-info/SOURCES.txt'
+[0.766s] writing manifest file 'robotic_sol.egg-info/SOURCES.txt'
+[0.767s] running build_ext
+[0.767s] Creating /home/ros22/machina/install/robotic_sol/lib/python3.10/site-packages/robotic-sol.egg-link (link to .)
+[0.768s] Installing sensor_node script to /home/ros22/machina/install/robotic_sol/lib/robotic_sol
+[0.768s] 
+[0.769s] Installed /home/ros22/machina/build/robotic_sol
+[0.769s] running symlink_data
+[0.798s] Invoked command in '/home/ros22/machina/build/robotic_sol' returned '0': PYTHONPATH=/home/ros22/machina/build/robotic_sol/prefix_override:/home/ros22/machina/install/robotic_sol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros22/machina/build/robotic_sol/build --no-deps symlink_data

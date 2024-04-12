@@ -1,0 +1,1 @@
+/home/ros22/machina/build/robotic_sol_interfaces/rosidl_generator_c/robotic_sol_interfaces/msg/rosidl_generator_c__visibility_control.h

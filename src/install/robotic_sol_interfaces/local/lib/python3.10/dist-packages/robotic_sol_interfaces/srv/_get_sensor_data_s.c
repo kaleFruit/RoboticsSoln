@@ -1,0 +1,1 @@
+/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_generator_py/robotic_sol_interfaces/srv/_get_sensor_data_s.c

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/robotic_sol
+robotic_sol/__init__.py
+robotic_sol/client.py
+robotic_sol/sensor_manager.py
+robotic_sol.egg-info/PKG-INFO
+robotic_sol.egg-info/SOURCES.txt
+robotic_sol.egg-info/dependency_links.txt
+robotic_sol.egg-info/entry_points.txt
+robotic_sol.egg-info/requires.txt
+robotic_sol.egg-info/top_level.txt
+robotic_sol.egg-info/zip-safe

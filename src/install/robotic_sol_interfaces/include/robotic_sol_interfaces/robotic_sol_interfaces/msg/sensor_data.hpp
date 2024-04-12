@@ -1,0 +1,1 @@
+/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_generator_cpp/robotic_sol_interfaces/msg/sensor_data.hpp

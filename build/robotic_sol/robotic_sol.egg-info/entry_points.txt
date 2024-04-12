@@ -1,0 +1,4 @@
+[console_scripts]
+client_node = robotic_sol.client:main
+sensor_node = robotic_sol.sensor_manager:main
+

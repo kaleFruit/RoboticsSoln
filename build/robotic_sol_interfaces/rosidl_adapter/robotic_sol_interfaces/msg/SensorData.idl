@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotic_sol_interfaces/msg/SensorData.msg
+// generated code does not contain a copyright notice
+
+
+module robotic_sol_interfaces {
+  module msg {
+    struct SensorData {
+      int64 sensor_index;
+
+      sequence<double> data;
+    };
+  };
+};

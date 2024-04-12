@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotic_sol_interfaces/srv/GetSensorData.srv
+// generated code does not contain a copyright notice
+
+
+module robotic_sol_interfaces {
+  module srv {
+    struct GetSensorData_Request {
+      int64 sensor_index;
+    };
+    struct GetSensorData_Response {
+      sequence<double> data;
+    };
+  };
+};

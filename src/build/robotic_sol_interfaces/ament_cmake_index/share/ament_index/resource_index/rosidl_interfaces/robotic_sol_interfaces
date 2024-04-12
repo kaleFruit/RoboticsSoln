@@ -1,0 +1,6 @@
+msg/SensorData.idl
+msg/SensorData.msg
+srv/GetSensorData.idl
+srv/GetSensorData.srv
+srv/GetSensorData_Request.msg
+srv/GetSensorData_Response.msg

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/msg/detail/sensor_data__type_support_c.cpp.o"
+  "CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/msg/detail/sensor_data__type_support_c.cpp.o.d"
+  "CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/srv/detail/get_sensor_data__type_support_c.cpp.o"
+  "CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/srv/detail/get_sensor_data__type_support_c.cpp.o.d"
+  "librobotic_sol_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "librobotic_sol_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/msg/detail/sensor_data__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/srv/detail/get_sensor_data__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/srv/detail/get_sensor_data__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robotic_sol_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

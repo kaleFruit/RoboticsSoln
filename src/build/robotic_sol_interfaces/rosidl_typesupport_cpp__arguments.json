@@ -1,0 +1,19 @@
+{
+  "package_name": "robotic_sol_interfaces",
+  "output_dir": "/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_typesupport_cpp/robotic_sol_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_adapter/robotic_sol_interfaces:msg/SensorData.idl",
+    "/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_adapter/robotic_sol_interfaces:srv/GetSensorData.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_adapter/robotic_sol_interfaces/msg/SensorData.idl",
+    "/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_adapter/robotic_sol_interfaces/srv/GetSensorData.idl"
+  ]
+}

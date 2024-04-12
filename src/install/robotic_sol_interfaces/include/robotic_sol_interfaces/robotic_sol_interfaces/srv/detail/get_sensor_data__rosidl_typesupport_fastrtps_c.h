@@ -1,0 +1,1 @@
+/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_typesupport_fastrtps_c/robotic_sol_interfaces/srv/detail/get_sensor_data__rosidl_typesupport_fastrtps_c.h

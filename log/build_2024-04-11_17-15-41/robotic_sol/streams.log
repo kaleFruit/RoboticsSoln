@@ -1,0 +1,17 @@
+[0.583s] Invoking command in '/home/ros22/machina/build/robotic_sol': PYTHONPATH=/home/ros22/machina/build/robotic_sol/prefix_override:/home/ros22/machina/install/robotic_sol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros22/machina/build/robotic_sol/build --no-deps symlink_data
+[0.871s] running develop
+[1.016s] running egg_info
+[1.017s] writing robotic_sol.egg-info/PKG-INFO
+[1.017s] writing dependency_links to robotic_sol.egg-info/dependency_links.txt
+[1.017s] writing entry points to robotic_sol.egg-info/entry_points.txt
+[1.017s] writing requirements to robotic_sol.egg-info/requires.txt
+[1.017s] writing top-level names to robotic_sol.egg-info/top_level.txt
+[1.020s] reading manifest file 'robotic_sol.egg-info/SOURCES.txt'
+[1.021s] writing manifest file 'robotic_sol.egg-info/SOURCES.txt'
+[1.022s] running build_ext
+[1.023s] Creating /home/ros22/machina/install/robotic_sol/lib/python3.10/site-packages/robotic-sol.egg-link (link to .)
+[1.023s] Installing sensor_node = robotic_sol.sensor_manager:mainclient_node script to /home/ros22/machina/install/robotic_sol/lib/robotic_sol
+[1.024s] 
+[1.024s] Installed /home/ros22/machina/build/robotic_sol
+[1.024s] running symlink_data
+[1.091s] Invoked command in '/home/ros22/machina/build/robotic_sol' returned '0': PYTHONPATH=/home/ros22/machina/build/robotic_sol/prefix_override:/home/ros22/machina/install/robotic_sol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros22/machina/build/robotic_sol/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/ros22/machina/src/build/robotic_sol_interfaces/ament_cmake_python/robotic_sol_interfaces/robotic_sol_interfaces.egg-info/top_level.txt

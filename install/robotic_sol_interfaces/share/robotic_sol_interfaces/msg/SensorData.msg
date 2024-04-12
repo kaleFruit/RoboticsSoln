@@ -1,0 +1,1 @@
+/home/ros22/machina/src/robotic_sol_interfaces/msg/SensorData.msg

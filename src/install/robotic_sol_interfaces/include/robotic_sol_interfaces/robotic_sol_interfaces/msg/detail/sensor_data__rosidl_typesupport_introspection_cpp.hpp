@@ -1,0 +1,1 @@
+/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_typesupport_introspection_cpp/robotic_sol_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp

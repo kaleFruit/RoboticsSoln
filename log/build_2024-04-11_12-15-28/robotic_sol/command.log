@@ -1,0 +1,1 @@
+Invoking command in '/home/ros22/machina/build/robotic_sol': PYTHONPATH=/home/ros22/machina/build/robotic_sol/prefix_override:/home/ros22/machina/install/robotic_sol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros22/machina/build/robotic_sol/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/ros22/machina/src/build/robotic_sol_interfaces/rosidl_generator_py/robotic_sol_interfaces/_robotic_sol_interfaces_s.ep.rosidl_typesupport_c.c
