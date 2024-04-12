@@ -17,8 +17,7 @@ class SensorManager(Node):
         
         # Set server addresses and sample sizes for the two sensors
         self.server_addresses = [(('127.0.0.3', 10000), 8), (('127.0.0.1', 10000), 16)] 
-        self.prevData = [0,0]
-        self.prevDataCounter = [0,0]
+        
         for i in range(len(self.server_addresses)):
             self.latest_data.append([])
             self.create_service(GetSensorData, f'sensor_data{i}', self.retrieve_sensor_data_callback)
@@ -55,12 +54,6 @@ class SensorManager(Node):
 
     def retrieve_sensor_data_callback(self, rqst, response):
         response.data = self.latest_data[rqst.sensor_index]
-        if self.latest_data[rqst.sensor_index] == self.prevData[rqst.sensor_index]:
-            self.prevDataCounter[rqst.sensor_index]+=1
-        else:
-            print(f"{rqst.sensor_index}: {self.prevDataCounter[rqst.sensor_index]}")
-            self.prevData[rqst.sensor_index]=self.latest_data[rqst.sensor_index]
-            self.prevDataCounter[rqst.sensor_index]=0
         return response
     
 

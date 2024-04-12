@@ -33,6 +33,7 @@ class Client(Node):
             futures.append(future)
     
     def respond(self, sensor_idx, future):
+        # Publish data to topic for specific sensor
         try:
             response = future.result()
         except Exception as e:
